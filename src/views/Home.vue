@@ -63,19 +63,17 @@
     
     <div class="quotes">
 	  
-	  <v-flex sm4 xs12 class="card-cont">
+	<v-flex sm4 xs12 class="card-cont">
       <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/3074256_SBI_Logo_for_white_background.png"
-            >
-          <h2>SBI</h2>
-          <p>Official Banking Partner</p>
+        <div class="box box2">
+          <img class="card-image-3"
+            src="Waves_18 Logos/Smart_Logo.png">
+          <h2>Smart</h2>
+          <p>Official Powered By Sponsor of Waves</p>
         </div>
         <div class="bg"></div>
       </div>
-	  </v-flex>
-
+	</v-flex>
 
 
 
@@ -114,17 +112,20 @@
       </div>
 	</v-flex>
 
-	<v-flex sm4 xs12 class="card-cont">
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Smart_Logo.png">
-          <h2>Smart</h2>
-          <p>Official Powered By Sponsor of Waves</p>
+        <div class="box box1">
+          <img class="card-image-2"
+            src="Waves_18 Logos/3074256_SBI_Logo_for_white_background.png"
+            >
+          <h2>SBI</h2>
+          <p>Official Banking Partner</p>
         </div>
         <div class="bg"></div>
       </div>
-	</v-flex>
+	  </v-flex>
+
+
 
 	<v-flex sm4 xs12 class="card-cont">
       <div class="card">
