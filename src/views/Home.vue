@@ -6,41 +6,48 @@
 	<div class="header">
 		<h1 class="heading">Marketing Heads:</h1>
 
-		<div class="contacts">
-			<v-card
-			class="mx-auto contact-detail"
-			>
-				<v-card-title class="name">Jake Weary</v-card-title>
-				<v-card-text class="email">random@random.com</v-card-text>
-				<v-card-text class="mob-no">+12 1234567890</v-card-text>
-				<v-card-actions class="buttons-row">
-					<v-btn class="ma-2" text icon>
-						<v-icon>mdi-facebook</v-icon>
-					</v-btn>
-					<v-btn class="ma-2" text icon>
-						<v-icon>mdi-linkedin</v-icon>
-					</v-btn>
-				</v-card-actions>
-			</v-card>
+
+		<v-layout row wrap justify-center align-center class="row">
+
+				<v-flex sm4 xs12>
+					<v-card
+					class="mx-auto contact-detail"
+					>
+						<v-card-title class="name">Jake Weary</v-card-title>
+						<v-card-text class="email">random@random.com</v-card-text>
+						<v-card-text class="mob-no">+12 1234567890</v-card-text>
+						<v-card-actions class="buttons-row">
+							<v-btn class="ma-2" text icon>
+								<v-icon>mdi-facebook</v-icon>
+							</v-btn>
+							<v-btn class="ma-2" text icon>
+								<v-icon>mdi-linkedin</v-icon>
+							</v-btn>
+						</v-card-actions>
+					</v-card>
+				</v-flex>
 
 
 		
-			<v-card
-			class="mx-auto contact-detail"
-			>
-				<v-card-title class="name">Jake Weary</v-card-title>
-				<v-card-text class="email">random@random.com</v-card-text>
-				<v-card-text class="mob-no">+12 1234567890</v-card-text>
-				<v-card-actions class="buttons-row">
-					<v-btn class="ma-2" text icon>
-						<v-icon>mdi-facebook</v-icon>
-					</v-btn>
-					<v-btn class="ma-2" text icon>
-						<v-icon>mdi-linkedin</v-icon>
-					</v-btn>
-				</v-card-actions>
-			</v-card>
-		</div>
+				<v-flex sm4 xs12>
+					<v-card
+					class="mx-auto contact-detail"
+					>
+						<v-card-title class="name">Jake Weary</v-card-title>
+						<v-card-text class="email">random@random.com</v-card-text>
+						<v-card-text class="mob-no">+12 1234567890</v-card-text>
+						<v-card-actions class="buttons-row">
+							<v-btn class="ma-2" text icon>
+								<v-icon>mdi-facebook</v-icon>
+							</v-btn>
+							<v-btn class="ma-2" text icon>
+								<v-icon>mdi-linkedin</v-icon>
+							</v-btn>
+						</v-card-actions>
+					</v-card>
+				</v-flex>
+		
+		</v-layout>
 	</div>
 
 
@@ -51,14 +58,12 @@
       <h2 class="name">Jake Weary</h2>
       <p class="email">random@random.com</p>
       <p class="mob-no">+91 1234567890</p>
-
     </div>
     
     
-
-
     <div class="quotes">
-    
+	  
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -69,6 +74,13 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+
+
+
+
+	  <v-flex sm4 xs12>
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
@@ -78,6 +90,8 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+	
     </div>
 
 
@@ -86,6 +100,7 @@
 
     <div class="quotes">
 
+	<v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -93,11 +108,13 @@
             >
           <h2>Uniball</h2>
           <p
-          style="bottom: 7%;"
           >Official Festival Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	</v-flex>
+
+	<v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
@@ -107,6 +124,9 @@
         </div>
         <div class="bg"></div>
       </div>
+	</v-flex>
+
+	<v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
@@ -116,13 +136,19 @@
         </div>
         <div class="bg"></div>
       </div>
+	</v-flex>
+
+
     </div>
 
 
 
 
 
+
     <div class="quotes">
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -130,11 +156,13 @@
             >
           <h2>Amrutam</h2>
           <p
-          style="bottom: 7%;"
           >Official Festival Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
@@ -144,6 +172,9 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
@@ -153,6 +184,7 @@
         </div>
         <div class="bg"></div>
         </div>
+		</v-flex>
     </div>
 
 
@@ -161,6 +193,7 @@
 
 
     <div class="quotes">
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -172,30 +205,35 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
             src="Waves_18 Logos/Doritos Logo.png">
           <h2>Doritos</h2>
           <p
-          style="bottom: 7%;"
           >Official Snack Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
             src="Waves_18 Logos/Fashion Is Unlimited Logo - Red.png"> 
           <h2
-          style="font-size:3em; width: 80%; margin-left: -40%;"
           >Fashion Unlimited</h2>
           <p
-          style="bottom: 7%;"
           >Official Festival Partner</p>
         </div>
         <div class="bg"></div>
         </div>
+	  </v-flex>
+		
     </div>
 
 
@@ -206,6 +244,7 @@
 
 
     <div class="quotes">
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -214,11 +253,12 @@
             >
           <h2>Fastrack</h2>
           <p
-          style="bottom: 7%;"
           >Official Style Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
@@ -228,19 +268,20 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
             src="Waves_18 Logos/hoomansofdogs.png"> 
           <h2
-          style="font-size:3em; width: 80%; margin-left: -40%;"
           >Hoomans of Dogs</h2>
           <p
-          style="bottom: 7%;"
           >Official Festival Partner</p>
         </div>
         <div class="bg"></div>
         </div>
+		</v-flex>
     </div>
 
 
@@ -250,6 +291,7 @@
 
 
     <div class="quotes">
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -257,30 +299,35 @@
             
             >
           <h2
-          style="font-size:3em; width: 80%; margin-left: -40%;"
           >Goa Tourism</h2>
           <p
           >Official Tourism Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
             src="Waves_18 Logos/GrabOn_highres_darkgrey_secondary.png">
           <h2>Grabon</h2>
           <p
-          style="bottom: 7%;"
+          
           >Official Savings Partner</p>
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
             src="Waves_18 Logos/IMG-20181024-WA0021.png"> 
           <h2
-          style="font-size:2.9em; width: 80%; margin-left: -40%;"
+          
           >Zahra’s Kitchen</h2>
           <p
           
@@ -288,6 +335,7 @@
         </div>
         <div class="bg"></div>
         </div>
+		</v-flex>
     </div>
 
 
@@ -297,6 +345,7 @@
 
 
     <div class="quotes">
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box1">
           <img class="card-image-2"
@@ -308,6 +357,9 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box2">
           <img class="card-image-3"
@@ -317,21 +369,25 @@
         </div>
         <div class="bg"></div>
       </div>
+	  </v-flex>
+
+	  <v-flex sm4 xs12 class="card-cont">
       <div class="card">
         <div class="box box3">
           <img class="card-image-3"
             src="Waves_18 Logos/Manforce Logo.png"> 
           <h2>Manforce</h2>
           <p
-          style="bottom: 7%;"
+          
           >Official Safety Partner</p>
         </div>
         <div class="bg"></div>
         </div>
+		</v-flex>
+    </div>	
+
     </div>
 
-
-    </div>
   
 </template>
 
@@ -350,6 +406,9 @@ export default {
 </script>
 
 <style scoped>
+
+
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -363,13 +422,14 @@ body {
 }
 
 .quotes {
-  min-height: 400px;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   z-index: 2;
-  padding-left: auto;
-  padding-right: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+  
 }
 
 .quotes .box {
@@ -381,7 +441,10 @@ body {
   transition: all 0.5s ease-in;
   z-index: 2;
   box-sizing: border-box;
-  padding: 30px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 3%;
   box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
 }
@@ -420,7 +483,7 @@ body {
 
 .quotes .bg {
   position: absolute;
-  top: 13.5%;
+  top: 0%;
   left: 0;
   z-index: 1;
   opacity: 0;
@@ -478,13 +541,9 @@ h2 {
   color: white;
   display: block;
   text-align: center;
-  font-size: 3.5em;
+  font-size: 3vh;
   font-weight: bold;
-  position: absolute;
-  bottom: 18%;
-  left: 50%;
-  width: 60%;
-  margin-left: -30%;
+ 
   
 }
 
@@ -495,12 +554,9 @@ p {
   display: block;
   font-style: italic;
   text-align: center;
-  font-size: 1.5em;
-  position: absolute;
-  bottom: 2%;
-  left: 50%;
-  width: 50%;
-  margin-left: -25%;
+  font-size: 2vh;
+
+ 
 
 }
 
@@ -521,7 +577,13 @@ p {
 }
 
 .card {
-  margin: 1.2%;
+  display: block;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
 }
 
 
@@ -532,20 +594,23 @@ p {
 }
 
 .contact-detail {
-	width: 30%;
+	width: 60%;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .name {
 	display: block;
 	text-align: center;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 2.5vw;
 }
 
 .email {
 	display: block;
 	text-align: center;
 	font-style: italic;
+	font-size: 1.2vw;
 }
 
 .mob-no {
@@ -573,6 +638,13 @@ p {
 	background: #1c2938
 	
 }
+
+.box {
+	width: 90%;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
 
 
 </style>
