@@ -1,652 +1,81 @@
 <template>
-
-    <div id="app">
-
-
-	<div class="header">
-		<h1 class="heading">Marketing Heads:</h1>
-
-
-		<v-layout row wrap justify-center align-center class="row">
-
-				<v-flex sm4 xs12>
-					<v-card
-					class="mx-auto contact-detail"
-					>
-						<v-card-title class="name">Jake Weary</v-card-title>
-						<v-card-text class="email">random@random.com</v-card-text>
-						<v-card-text class="mob-no">+12 1234567890</v-card-text>
-						<v-card-actions class="buttons-row">
-							<v-btn class="ma-2" text icon>
-								<v-icon>mdi-facebook</v-icon>
-							</v-btn>
-							<v-btn class="ma-2" text icon>
-								<v-icon>mdi-linkedin</v-icon>
-							</v-btn>
-						</v-card-actions>
-					</v-card>
-				</v-flex>
-
-
-		
-				<v-flex sm4 xs12>
-					<v-card
-					class="mx-auto contact-detail"
-					>
-						<v-card-title class="name">Jake Weary</v-card-title>
-						<v-card-text class="email">random@random.com</v-card-text>
-						<v-card-text class="mob-no">+12 1234567890</v-card-text>
-						<v-card-actions class="buttons-row">
-							<v-btn class="ma-2" text icon>
-								<v-icon>mdi-facebook</v-icon>
-							</v-btn>
-							<v-btn class="ma-2" text icon>
-								<v-icon>mdi-linkedin</v-icon>
-							</v-btn>
-						</v-card-actions>
-					</v-card>
-				</v-flex>
-		
-		</v-layout>
-	</div>
-
-
-
-
-    
-    <div>
-      <h2 class="name">Jake Weary</h2>
-      <p class="email">random@random.com</p>
-      <p class="mob-no">+91 1234567890</p>
+  <div class="bg-pic">
+    <waves/>
+    <div class="button">
+      <v-btn large round color="rgb(172,88,44)" @click="goEvents" class="btn">Register</v-btn>
     </div>
-    
-    
-    <div class="quotes">
-	  
-	<v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Smart_Logo.png">
-          <h2>Smart</h2>
-          <p>Official Powered By Sponsor of Waves</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	</v-flex>
-
-
-
-
-	  <v-flex sm4 xs12>
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Time.png">
-          <h2>Time</h2>
-          <p>In Association with Partner of Waves</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-	
-    </div>
-
-
-
-
-
-    <div class="quotes">
-
-	<v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/Uniball Logo 5X2feet.png"
-            >
-          <h2>Uniball</h2>
-          <p
-          >Official Festival Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	</v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/3074256_SBI_Logo_for_white_background.png"
-            >
-          <h2>SBI</h2>
-          <p>Official Banking Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-
-
-	<v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/IDM Horizontal logo.png"> 
-          <h2>IDM</h2>
-          <p>Official Powered By Sponsor of EDM Night</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	</v-flex>
-
-
-    </div>
-
-
-
-
-
-
-    <div class="quotes">
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/1505827601372.png"   
-            >
-          <h2>Amrutam</h2>
-          <p
-          >Official Festival Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/ALILA DIWA GOA - BLACK.png">
-          <h2>Alila Diwa</h2>
-          <p>Official Hospitality Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Copy of Real.png"> 
-          <h2>Real’s</h2>
-          <p>Official Beverage Partner</p>
-        </div>
-        <div class="bg"></div>
-        </div>
-		</v-flex>
-    </div>
-
-
-
-
-
-
-    <div class="quotes">
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/DHL Logo.png"
-            
-            >
-          <h2>DHL</h2>
-          <p>Official Logistics Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Doritos Logo.png">
-          <h2>Doritos</h2>
-          <p
-          >Official Snack Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Fashion Is Unlimited Logo - Red.png"> 
-          <h2
-          >Fashion Unlimited</h2>
-          <p
-          >Official Festival Partner</p>
-        </div>
-        <div class="bg"></div>
-        </div>
-	  </v-flex>
-		
-    </div>
-
-
-
-
-
-
-
-
-    <div class="quotes">
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/Fastrack_Black.png"
-            
-            >
-          <h2>Fastrack</h2>
-          <p
-          >Official Style Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Frosty_s.png">
-          <h2>Frosty’s</h2>
-          <p>Official Food Fest Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/hoomansofdogs.png"> 
-          <h2
-          >Hoomans of Dogs</h2>
-          <p
-          >Official Festival Partner</p>
-        </div>
-        <div class="bg"></div>
-        </div>
-		</v-flex>
-    </div>
-
-
-
-
-
-
-
-    <div class="quotes">
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/Goa Tourism Logo.png"
-            
-            >
-          <h2
-          >Goa Tourism</h2>
-          <p
-          >Official Tourism Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/GrabOn_highres_darkgrey_secondary.png">
-          <h2>Grabon</h2>
-          <p
-          
-          >Official Savings Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/IMG-20181024-WA0021.png"> 
-          <h2
-          
-          >Zahra’s Kitchen</h2>
-          <p
-          
-          >Official Food Fest Sponsor</p>
-        </div>
-        <div class="bg"></div>
-        </div>
-		</v-flex>
-    </div>
-
-
-
-
-
-
-
-    <div class="quotes">
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box1">
-          <img class="card-image-2"
-            src="Waves_18 Logos/Keventers.png.PNG"
-            
-            >
-          <h2>Keventers</h2>
-          <p>Official Milkshake Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box2">
-          <img class="card-image-3"
-            src="Waves_18 Logos/lensfit.com (4).png">
-          <h2>Lensfit</h2>
-          <p>Official Eyewear Partner</p>
-        </div>
-        <div class="bg"></div>
-      </div>
-	  </v-flex>
-
-	  <v-flex sm4 xs12 class="card-cont">
-      <div class="card">
-        <div class="box box3">
-          <img class="card-image-3"
-            src="Waves_18 Logos/Manforce Logo.png"> 
-          <h2>Manforce</h2>
-          <p
-          
-          >Official Safety Partner</p>
-        </div>
-        <div class="bg"></div>
-        </div>
-		</v-flex>
-    </div>	
-
-    </div>
-
-  
+    <v-container fluid id="home-about">
+      <v-layout wrap>
+        <v-flex xs12>
+          <v-card min-height="360px" elevation="10" color="rgba(200,200,200,0.3)" class="cards black--text">
+            <v-card-title primary-title>
+              <div>
+                <div class="headline">ABOUT US</div>
+                <span
+                  class="subheading"
+                >Waves is BITS Goa’s annual cultural fest, a melting pot of art, talent, skill, creativity, and intellectual prowess in their purest forms that attracts students from across the nation. During Waves, students can witness all sorts of amazing competitions, including breath-taking dance-offs, eclectic musical performances, heated debates, intense poetry slams, and a wide variety of other interesting events. And that’s just during the days-- the nights of Waves have seen artists such as Vishal-Shekhar, Amit Trivedi, Farhan Akhtar, Salim-Sulieman, Nucleya, The Local Train, and other amazing musical acts setting the stage on fire. For everything that BITS Goa is and represents, Waves is the fest you just can’t miss.</span>
+              </div>
+            </v-card-title>
+          </v-card>
+        </v-flex>
+        <v-flex xs12>
+          <v-card min-height="360px" elevation="10" color="rgba(200,200,200,0.3)" class="cards black--text">
+            <v-card-title primary-title>
+              <div>
+                <div class="headline">ABOUT THE THEME</div>
+                <span
+                  class="subheading"
+                >Break the chains of monotony, and set the explorer free, because this Waves we are going on an electrifying journey. Let yourself be consumed by Wanderlust, and walk through sprightly forests, rugged mountains and gushing rivers. Board the whistling trains, and sail the mighty seas. Come, En Voyage, and let adventure fill your soul. Dance among the fireflies, and listen to Summer birds sing, as you lose yourself in what promises to be an epic odyssey of three days. It’s time to move out of the shadows of everyday life, because every tale has two shades. This Waves, let’s explore the unexplored and En Voyage on Uncharted Ventures.</span>
+              </div>
+            </v-card-title>
+          </v-card>
+        </v-flex>
+      </v-layout>
+    </v-container>
+  </div>
 </template>
 
 <script>
-
-
-import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
-
-Vue.use(Vuetify)
-
+// import * as THREE from 'three'
 export default {
   name: "Home",
+  methods: {
+    goEvents() {
+      this.$router.push({ name: "Events" });
+    }
+  },
+  components: {
+    Waves: () => import("@/components/home/Waves")
+  }
 };
 </script>
 
 <style scoped>
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script:400");
+@import url("https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-
-
-body {
-  font-family: 'Poppins', sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.bg-pic {
+  background-image: url("https://firebasestorage.googleapis.com/v0/b/waves-assets.appspot.com/o/Backgrounds%2FBackground_Events-min.jpg?alt=media&token=f73ff590-5812-43e8-b6ee-62cc2cd7e442");
+  background-size: cover;
+  background-repeat: repeat;
 }
-
-.quotes {
-  
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  z-index: 2;
-  margin-left: 5%;
-  margin-right: 5%;
-  
-}
-
-.quotes .box {
-  position: relative;
-  width: 23.5vw;
-  height: 40.5vh;
-  background: #f2f2f2;
-  overflow: hidden;
-  transition: all 0.5s ease-in;
-  z-index: 2;
-  box-sizing: border-box;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  padding-top: 3%;
-  box-shadow: -10px 25px 50px rgba(0, 0, 0, 0.3);
-  border-radius: 20px;
-}
-
-.quotes .box::before {
-  
-  position: absolute;
-  top: -20px;
-  left: 5px;
-  width: 100%;
-  height: 100%;
-  font-size: 120px;
-  opacity: 0.2;
-  background: transparent;
-  pointer-events: none;
-}
-
-.quotes .box::after {
-  
-  position: absolute;
-  bottom: -10%;
-  right: 5%;
-  font-size: 120px;
-  opacity: 0.2;
-  background: transparent;
-  filter: invert(1);
-  pointer-events: none;
-}
-
-
-
-.quotes .box:hover {
-  color: #f2f2f2;
-  box-shadow: 20px 50px 100px rgba(0, 0, 0, 0.5);
-}
-
-.quotes .bg {
-  position: absolute;
-  top: 0%;
-  left: 0;
-  z-index: 1;
-  opacity: 0;
-  transition: all 0.5s ease-in;
-  pointer-events: none;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.quotes .box.box1:hover,
-.quotes .box.box1:hover~.bg {
-  opacity: 1;
-  background: #e2a9e5;
-background: -moz-linear-gradient(-45deg, #e2a9e5 15%, #2b94e5 100%);
-background: -webkit-linear-gradient(-45deg, #e2a9e5 15%,#2b94e5 100%);
-background: linear-gradient(135deg, #e2a9e5 15%,#2b94e5 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2a9e5', endColorstr='#2b94e5',GradientType=1 );
-}
-
-.quotes .box.box2:hover,
-.quotes .box.box2:hover~.bg {
-  opacity: 1;
-  background: #632c65;
-background: -moz-linear-gradient(-45deg, #632c65 15%, #56a5e2 100%);
-background: -webkit-linear-gradient(-45deg, #632c65 15%,#56a5e2 100%);
-background: linear-gradient(135deg, #632c65 15%,#56a5e2 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#632c65', endColorstr='#56a5e2',GradientType=1 );
-}
-
-.quotes .box.box3:hover,
-.quotes .box.box3:hover~.bg {
-  opacity: 1;
-  background: #4b384c;
-background: -moz-linear-gradient(-45deg, #4b384c 15%, #da5de2 100%);
-background: -webkit-linear-gradient(-45deg, #4b384c 15%,#da5de2 100%);
-background: linear-gradient(135deg, #4b384c 15%,#da5de2 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4b384c', endColorstr='#da5de2',GradientType=1 );
-}
-
-img {
-  width: 67%;
-  height: 67%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 10px;
-}
-
-
-
-h2 {
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
-  color: white;
-  display: block;
+.button {
   text-align: center;
-  font-size: 3vh;
-  font-weight: bold;
- 
-  
 }
-
-p {
-  opacity: 0;
-  transition: opacity 0.5s ease-in;
-  color: white;
-  display: block;
-  font-style: italic;
-  text-align: center;
-  font-size: 2vh;
-
- 
-
+.btn {
+  margin-top: -250px;
 }
-
-.box:hover > h2 {
-  opacity: 1;
-  color: white;
+.cards {
+  margin: 20px;
 }
-
-.box:hover > p {
-  opacity: 1;
-  color: white;
-
+.headline {
+  font-family: "Kaushan Script", cursive !important;
 }
-
-
-.box:hover > img {
-  box-shadow: 15px 40px 80px rgba(0, 0, 0, 0.5);
+.subheading {
+  font-family: "Montserrat", cursive !important;
+  font-size: 1.3rem !important;
 }
-
-.card {
-  display: block;
-  text-align: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 90%;
-}
-
-
-.contacts {
-	display: flex;
-	padding-left: 30%;
-	padding-right: 30%;
-}
-
-.contact-detail {
-	width: 60%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-}
-
-.name {
-	display: block;
-	text-align: center;
-	font-weight: bold;
-	font-size: 2.5vw;
-}
-
-.email {
-	display: block;
-	text-align: center;
-	font-style: italic;
-	font-size: 1.2vw;
-}
-
-.mob-no {
-	display: block;
-	text-align: center;
-}
-
-.buttons-row {
-	display: block;
-	text-align: center;
-}
-
-.heading {
-	display: block;
-	text-align: center;
-	font-weight: bold;
-	font-size: 3.5em;
-	margin-bottom: 2%;
-	color: white;
-}
-
-.header {
-	padding-bottom: 4%;
-	padding-top: 3%;
-	background: #1c2938
-	
-}
-
-.box {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
-
-
 </style>
 

@@ -31,6 +31,11 @@ export default new Router({
       component: Contact
     },
     {
+      path: '/sponsors',
+      name: 'Sponsors',
+      component: Sponsors
+    },
+    {
       path: '*',
       redirect: {
         name: 'Home'
